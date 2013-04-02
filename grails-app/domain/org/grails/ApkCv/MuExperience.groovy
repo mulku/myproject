@@ -13,8 +13,6 @@ class MuExperience {
 	Date creation_date
 	boolean currentlyWorking =false;
 
-
-
 	static constraints = {
 		companyName(nullable:false)
 		companyURL(nullable:true)

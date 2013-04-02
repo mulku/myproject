@@ -12,6 +12,13 @@ class MuCV {
 	String country
 	String summary
 	String title
+	String address
+	String phoneNumber
+	String email
+	String twitter
+	String facebook
+	String website
+	String photoURL
 	User user
 	
 	static hasMany  = [certifications : MuCertifications,

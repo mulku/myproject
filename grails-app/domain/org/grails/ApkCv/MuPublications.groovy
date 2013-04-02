@@ -6,6 +6,7 @@ class MuPublications {
 	Date publicationDate
 	String publicationURL
 	String description
+	String publisher
 	
     static constraints = {
     }
